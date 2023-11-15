@@ -12,6 +12,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "csv-parse": "^5.5.2",
+    "csv-stringify": "^6.4.4",
     "date-fns": "^2.30.0"
   },
   "targets": {
@@ -23,5 +25,8 @@
       }
     }
   },
-  "alias": {}
+  "alias": {
+    "csv-parse/sync": "csv-parse/lib/sync",
+    "csv-stringify/sync": "csv-stringify/lib/sync"
+  }
 }
